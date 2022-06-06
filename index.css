@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+.container{
+    background-color:rgb(241, 157, 248);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile {
+    width: 100px;
+    height: 130px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(29, 157, 188);
+}
+.header-contract{
+    float: right;
+    padding: 30px;
+}
+.header-contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-information{
+
+}
+.content{
+    margin-bottom: 20px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.division-left{
+    float: left;
+    width: 45%;
+}
+.division-right{
+    float: right;
+    width: 45%;
+}
+.footer{
+    background-color: black;
+    
+    text-align: center;
+    padding: 10px;
+    
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+}
